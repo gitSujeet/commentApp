@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+}
+
+.body-properties {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.fpass{
+  text-align: right;
+}
+
+.pass-radius{
+  border-radius: 0px;
+}
+.secretarea{
+  margin-top: -3.5%;
+}
+
+
+.signup-p{
+  margin-top: 10%;
+  color: grey;
+}
+
+.fhead{
+  background-color: rgb(3, 3, 116);
+  padding: 1%;
+
+}
+
+.logout-p{
+  text-align: right;
+  padding-right: 2%;
+  background-color: rgb(3, 3, 116);
+  margin: 0%;
+  color: white;
+}
+
+.log-p{
+  text-align: right;
+}
+
+.h1-homepage{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  padding: 2%;
+  color: white;
+}
+
+.post-head{
+ margin: 4% 13.5% 0% 13.5%;
+}
+
+.post-area{
+  margin: 2% 13.5%;
+  text-align: center;
+}
+
+textarea{
+  width: 100%;
+  border-radius: 5px;
+  border-width: 3px;
+  padding: 1%;
+  outline-color: rgb(110, 110, 235);
+
+}
+
+.post-btn{
+text-align: right;}
+
+.comments{
+  margin: 4% 13.5% 1% 13.5%;
+
+}
+.comment-head{
+  font-weight: 1000;
+}
+
+.allcomment{
+  margin: 10% 13.5% 1% 13.5%;
+}
+.comment-p{
+  text-align: center;
+  margin: 0% 13.5% 1% 13.5%;
+  float: right;
+}
+
+
+.footer{
+  text-align: center;
+  margin: 10% 13.5%;
+}
+
+.email-input {text-transform: lowercase;}
